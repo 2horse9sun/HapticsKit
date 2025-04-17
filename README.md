@@ -1,6 +1,6 @@
 # HapticsKit
 
-HapticsKit is an extension to SwiftUI's [`sensoryFeedback` APIs](https://developer.apple.com/documentation/swiftui/sensoryfeedback), including rich predefined and parameterized haptic patterns in addition to system-provided ones. These haptic patterns are created by Haptics Simulator App (to be released soon on App Store), which is a great tool to visualize and create customized haptic patterns. Internally, all haptic patterns are represented as `CHHapticPattern` and played by `CHHapticEngine`. (See [CoreHaptics](https://developer.apple.com/documentation/corehaptics/) for detail)
+HapticsKit is an extension to SwiftUI's [`sensoryFeedback` APIs](https://developer.apple.com/documentation/swiftui/sensoryfeedback), including rich predefined and parameterized haptic patterns in addition to system-provided ones. These haptic patterns are created by [Haptics Simulator App](https://apps.apple.com/cn/app/%E8%A7%A6%E6%84%9F%E6%A8%A1%E6%8B%9F%E5%99%A8/id6741039368), which is a great tool to visualize and create customized haptic patterns. Internally, all haptic patterns are represented as `CHHapticPattern` and played by `CHHapticEngine`. (See [CoreHaptics](https://developer.apple.com/documentation/corehaptics/) for detail)
 
 # Usage
 
@@ -130,7 +130,7 @@ public enum HKHapticPatternType: Hashable {
 
 Generally, there are two ways to 'feel' the haptics. The first way is of course to play it on a physical phone. Though accurate, you have to play them one by one to find the best match. The other way is to convert parameters of haptics, e.g. duration/intensity/sharpness, into visual representations, which give you a glance at how a haptic pattern might feel. The combination of both ways will bring the best experience.
 
-To visualize all the patterns provided by HapticsKit, it is recommended to get the Haptics Simulator App. Patterns in HapticsKit are in sync with visualizations on Haptics Simulator App. Actually, Haptics Simulator is fully built on top of HapticsKit.
+To visualize all the patterns provided by HapticsKit, it is recommended to get the [Haptics Simulator App](https://apps.apple.com/cn/app/%E8%A7%A6%E6%84%9F%E6%A8%A1%E6%8B%9F%E5%99%A8/id6741039368). Patterns in HapticsKit are in sync with visualizations on Haptics Simulator App. Actually, Haptics Simulator is fully built on top of HapticsKit.
 
 # How to Contribute
 
