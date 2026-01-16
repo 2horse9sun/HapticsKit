@@ -8,7 +8,7 @@
 import SwiftUI
 import CoreHaptics
 
-public protocol HKHapticPattern: CHHapticPatternEncodable {
+public protocol HKHapticPattern: CHHapticPatternEncodable, Hashable {
     var name: String { get }
     var detail: String { get }
     var category: HKHapticPatternCategory { get }
